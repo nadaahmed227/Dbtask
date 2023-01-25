@@ -58,6 +58,9 @@
     <Compile Include="Empolyee.Designer.cs">
       <DependentUpon>Empolyee.cs</DependentUpon>
     </Compile>
+    <EmbeddedResource Include="Salary.resx">
+      <DependentUpon>Salary.cs</DependentUpon>
+    </EmbeddedResource>
     <None Include="Login">
       <SubType>Form</SubType>
     </None>
