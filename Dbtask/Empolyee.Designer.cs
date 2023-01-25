@@ -123,9 +123,9 @@
             this.label4.ForeColor = System.Drawing.Color.Teal;
             this.label4.Location = new System.Drawing.Point(58, 289);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(155, 28);
+            this.label4.Size = new System.Drawing.Size(167, 28);
             this.label4.TabIndex = 7;
-            this.label4.Text = "Empolyee Name";
+            this.label4.Text = "Empolyee Gender";
             // 
             // textBox3
             // 
@@ -142,9 +142,9 @@
             this.label5.ForeColor = System.Drawing.Color.Teal;
             this.label5.Location = new System.Drawing.Point(58, 369);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(155, 28);
+            this.label5.Size = new System.Drawing.Size(208, 28);
             this.label5.TabIndex = 9;
-            this.label5.Text = "Empolyee Name";
+            this.label5.Text = "Empolyee Department";
             // 
             // textBox4
             // 
@@ -161,9 +161,9 @@
             this.label6.ForeColor = System.Drawing.Color.Teal;
             this.label6.Location = new System.Drawing.Point(58, 453);
             this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(155, 28);
+            this.label6.Size = new System.Drawing.Size(125, 28);
             this.label6.TabIndex = 11;
-            this.label6.Text = "Empolyee Name";
+            this.label6.Text = "Birth Of Deta";
             // 
             // textBox5
             // 
@@ -180,9 +180,9 @@
             this.label7.ForeColor = System.Drawing.Color.Teal;
             this.label7.Location = new System.Drawing.Point(58, 538);
             this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(155, 28);
+            this.label7.Size = new System.Drawing.Size(93, 28);
             this.label7.TabIndex = 13;
-            this.label7.Text = "Empolyee Name";
+            this.label7.Text = "Join Date";
             // 
             // textBox6
             // 
