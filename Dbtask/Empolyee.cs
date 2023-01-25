@@ -21,5 +21,10 @@ namespace Dbtask
         {
 
         }
+
+        private void Empolyee_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }
