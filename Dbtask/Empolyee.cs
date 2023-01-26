@@ -23,7 +23,7 @@ namespace Dbtask
         private void ShowEmpolyee()
         {
             string Query = "Select * from DepartmentTb1";
-            DepList.DataSource = Con.GetData(Query);
+            EmpolyeeList.DataSource = Con.GetData(Query);
         }
 
         private void label8_Click(object sender, EventArgs e)
