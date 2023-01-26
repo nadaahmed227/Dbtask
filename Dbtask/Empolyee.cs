@@ -43,13 +43,14 @@ namespace Dbtask
                 else 
                 {
                     string Name = EmpolyeeNameTb.Text;
-                    string Gender = Gencb.SelectedItem;
-                    string  = EmpolyeeNameTb.Text;
+                    string Gender = Gencb.SelectedItem.ToString();
+                    string  = Gencb.SelectedValue.ToString();
+                    string  = DDB.DDBTb.Value.ToString();
 
 
                     string Name = EmpNameTb.Text;
                     string Query = "insert into DepartmentTb1 values('{0}')";
-                    Query = string.Format(Query, DepNameTb.Text);
+                    Query = string.Format(Query, DepNameTb.Text;
                     Con.SetData(Query);
                     ShowDepartments();
                     MessageBox.Show("Department Added!!!");
