@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Data;
 using System.Data.SqlClient;
 using System.Linq;
 using System.Text;
@@ -10,7 +11,8 @@ namespace Dbtask
     internal class function
     {
         private SqlConnection Con;
-        private SqlCommand Cmd; 
+        private SqlCommand Cmd;  
+        private DataTable dt
         public function
     }
 }
