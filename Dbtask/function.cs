@@ -26,12 +26,16 @@ namespace Dbtask
         public DataTable GetData(string Query);  
         {
         dt =new DataTable();
-        sda= new SqlDataAdapter =(Query, Constr); 
+        sda = new SqlDataAdapter =(Query, Constr); 
             sda.fill(dt); 
             return dt;  
-            } 
-    public int SetData(string Query)
+            }
+    public int SetData(string Query) { 
         int cnt = 0; 
-        if(Con.set == ConnectionSet.Closed)
+        if(Con.State == ConnectionState.Closed) 
+        { 
+        con.Open(); 
+        } 
+     cmd.commandText
         }
 }
