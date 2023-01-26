@@ -102,11 +102,21 @@ namespace Dbtask
         private void AddBtn_Click(object sender, EventArgs e) 
         {
             try
-            { 
+            {  
+                if(DepNameTb.Text == "")
+                {
+                    MessageBox.Show("Missing Data!!!"); 
+                }
             }
-            catch (Exception ex)
+            else
             {
-                throw;
+                string Dep = DepNameTb.Text; 
+                string Query ="insert into DepertmentTb1"
+            }
+            catch (Exception Ex)
+            {
+                MessageBox.Show(Ex.Message); 
+
             }
 
 
