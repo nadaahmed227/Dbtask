@@ -47,7 +47,7 @@
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.comboBox1 = new System.Windows.Forms.ComboBox();
             this.kkk = new System.Windows.Forms.ComboBox();
-            this.button1 = new System.Windows.Forms.Button();
+            this.Updated = new System.Windows.Forms.Button();
             this.Abded = new System.Windows.Forms.Button();
             this.label9 = new System.Windows.Forms.Label();
             this.label10 = new System.Windows.Forms.Label();
@@ -244,16 +244,16 @@
             this.kkk.Size = new System.Drawing.Size(316, 35);
             this.kkk.TabIndex = 20;
             // 
-            // button1
+            // Updated
             // 
-            this.button1.BackColor = System.Drawing.Color.MediumTurquoise;
-            this.button1.ForeColor = System.Drawing.Color.White;
-            this.button1.Location = new System.Drawing.Point(231, 734);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(129, 43);
-            this.button1.TabIndex = 21;
-            this.button1.Text = "Update";
-            this.button1.UseVisualStyleBackColor = false;
+            this.Updated.BackColor = System.Drawing.Color.MediumTurquoise;
+            this.Updated.ForeColor = System.Drawing.Color.White;
+            this.Updated.Location = new System.Drawing.Point(231, 734);
+            this.Updated.Name = "Updated";
+            this.Updated.Size = new System.Drawing.Size(129, 43);
+            this.Updated.TabIndex = 21;
+            this.Updated.Text = "Update";
+            this.Updated.UseVisualStyleBackColor = false;
             // 
             // Abded
             // 
@@ -365,7 +365,7 @@
             this.Controls.Add(this.label11);
             this.Controls.Add(this.label12);
             this.Controls.Add(this.Abded);
-            this.Controls.Add(this.button1);
+            this.Controls.Add(this.Updated);
             this.Controls.Add(this.kkk);
             this.Controls.Add(this.comboBox1);
             this.Controls.Add(this.pictureBox1);
@@ -420,7 +420,7 @@
         private System.Windows.Forms.PictureBox pictureBox1;
         private System.Windows.Forms.ComboBox comboBox1;
         private System.Windows.Forms.ComboBox kkk;
-        private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.Button Updated;
         private System.Windows.Forms.Button Abded;
         private System.Windows.Forms.Label label9;
         private System.Windows.Forms.Label label10;
