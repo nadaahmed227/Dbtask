@@ -18,7 +18,8 @@ namespace Dbtask
             function Con;
             InitializeComponent();
             Con = new Functions();
-            ShowDepartments();
+            ShowEmpolyee();
+            GetDepartment 
         }
         private void ShowEmpolyee()
         {
@@ -29,7 +30,7 @@ namespace Dbtask
         string Query = "Select *from Department"; 
         Depcb.DisplayMember =Con.GetData(Query).Colums["DepName"].Tostring();
         Depcb.ValueMember =Con.GetData(Query).Colums["DepId"].Tostring(); 
-
+        Depc..DataSource = Con.GetData(Query);
         private void Added_Click(object sender, EventArgs e)
         {
 
