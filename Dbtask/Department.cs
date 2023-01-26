@@ -42,7 +42,8 @@ namespace Dbtask
                 string Query = "insert into DepertmentTb1 Values('{0}')";
                 Query = string.Format(DepNameTb.Text);
                 Con.StateData(Query);
-                ShowDepartment(); 
+                ShowDepartment();
+                MessageBox.Show("Department  Added!!!");
             }
             catch (Exception Ex)
             {
