@@ -97,10 +97,20 @@ namespace Dbtask
         private void ListrDepartments()
         {
             string Query = "Select *from  DepartmentTb1";
-            Deplist.DataSourc = 
+            Deplist.DataSourc = Con.GetData(Query);
         }
         private void AddBtn_Click(object sender, EventArgs e) 
         {
+            try
+            { 
+            }
+            catch (Exception ex)
+            {
+                throw;
+            }
+
+
+
 
         }
     }
