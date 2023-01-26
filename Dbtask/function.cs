@@ -11,8 +11,9 @@ namespace Dbtask
     internal class function
     {
         private SqlConnection Con;
-        private SqlCommand Cmd;  
-        private DataTable dt
+        private SqlCommand Cmd;
+        private DataTable dt;
+        private SqlDataAdapter sda;
         public function
     }
 }
