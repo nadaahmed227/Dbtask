@@ -43,8 +43,8 @@ namespace Dbtask
                 else 
                 {
                     string Name = EmpolyeeNameTb.Text;
-                    string Name = EmpolyeeNameTb.Text;
-                    string Name = EmpolyeeNameTb.Text;
+                    string Gender = Gencb.SelectedItem;
+                    string  = EmpolyeeNameTb.Text;
 
 
                     string Name = EmpNameTb.Text;
