@@ -92,7 +92,10 @@ namespace Dbtask
 
         }
 
-        private void
+        private void ListrDepartments()
+        {
+
+        }
         private void AddBtn_Click(object sender, EventArgs e) 
         {
 
