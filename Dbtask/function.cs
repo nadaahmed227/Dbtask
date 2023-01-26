@@ -9,8 +9,8 @@ namespace Dbtask
 {
     internal class function
     {
-        private SqlConnection Con; 
-        private
+        private SqlConnection Con;
+        private SqlCommand Cmd; 
         public function
     }
 }
