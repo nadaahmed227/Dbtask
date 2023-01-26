@@ -351,16 +351,30 @@ namespace Dbtask
 
         private void button1_Click(object sender, EventArgs e)
         {
+        try
+        {
+            if (DepNameTb.Text == "")
+            {
+                MessageBox.Show("Missing Data!!!");
 
+            }
         }
+            else
+        {
+            string Dep = DepNameTb.Text;
+            string Query = "Delet  into DepertmentTb1 Set DEpName ='{0}' whare DepId ={1})";
+            Query = string.Format(DepNameTb.Text, Key);
+            Con.StateData(Query);
+            ShowDepartment();
+            MessageBox.Show("Department  Update!!!");
+            DepNameTb.Text = ""
+            }
+            catch (Exception Ex)
+        {
+            MessageBox.Show(Ex.Message);
+        }
+    }
     }
         }
 
-        }
-
-   
-        
-
-        }
-    }
 
