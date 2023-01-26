@@ -26,7 +26,10 @@ namespace Dbtask
             EmpolyeeList.DataSource = Con.GetData(Query);
         }
         private void GetDepartment = Con.GetData(Query); {
-        string Query ="Select *from Department"
+        string Query = "Select *from Department"; 
+        Depcb.DisplayMember =Con.GetData(Query).Colums["DepName"].Tostring();
+        Depcb.ValueMember =Con.GetData(Query).Colums["DepId"].Tostring(); 
+
         private void Added_Click(object sender, EventArgs e)
         {
 
