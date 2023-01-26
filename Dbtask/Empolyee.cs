@@ -20,7 +20,7 @@ namespace Dbtask
             Con = new Functions();
             ShowDepartments();
         }
-        private void ShowDepartments()
+        private void ShowEmpolyee()
         {
             string Query = "Select * from DepartmentTb1";
             DepList.DataSource = Con.GetData(Query);
