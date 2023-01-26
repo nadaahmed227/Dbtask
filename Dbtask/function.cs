@@ -13,7 +13,8 @@ namespace Dbtask
         private SqlConnection Con;
         private SqlCommand Cmd;
         private DataTable dt;
-        private SqlDataAdapter sda;
+        private SqlDataAdapter sda; 
+        private string Constr;
         public function
     }
 }
