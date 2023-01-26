@@ -19,7 +19,9 @@ namespace Dbtask
         {
 
             Constr = @"Data Source=(LocalDB)\\MSSQLLocalDB;AttachDbFilename=C:\\Users\\bahgat\\source\\repos\\Dbtask\\Dbtask\\EmpDb.mdf;Integrated Security=True;Connect Timeout=30"
-            Constr = new SqlConnection(Constr); 
+            Con= new SqlConnection(Constr);
+            Cmd = new SqlCommand();
+            Cmd.Connection = Con;
 
         }
     } 
