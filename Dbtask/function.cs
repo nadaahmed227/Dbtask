@@ -25,19 +25,20 @@ namespace Dbtask
         }
         public DataTable GetData(string Query)
         {
-        dt = new DataTable();
-        sda = new SqlDataAdapter (Query , Constr); 
-            sda.Fill(dt); 
-            return dt;  
-            }
-    public int SetData(string Query) { 
-        int cnt = 0; 
-        if(Con.State == ConnectionState.Closed) 
-        { 
-        Con.Open(); 
+            dt = new DataTable();
+            sda = new SqlDataAdapter(Query, Constr);
+            sda.Fill(dt);
+            return dt;
         }
+        public int SetData(string Query) {
+            int cnt = 0;
+            if (Con.State == ConnectionState.Closed)
+            {
+                Con.Open();
+            }
             Cmd.CommandText = Query;
             cnt = Cmd.ExecuteNonQuery();
             return cnt;
         }
+    }
 }

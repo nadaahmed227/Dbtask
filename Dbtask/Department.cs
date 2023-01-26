@@ -92,7 +92,8 @@ namespace Dbtask
 
         }
 
-        private void label6_Click_1(object sender, EventArgs e)
+        private void
+        private void AddBtn_Click(object sender, EventArgs e) 
         {
 
         }
