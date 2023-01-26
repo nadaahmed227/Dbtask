@@ -374,6 +374,12 @@ namespace Dbtask
             MessageBox.Show(Ex.Message);
         }
     }
+    private void EmpLb1_Click(object sender, EventArgs e)
+    {
+        EmpolyeeObi = new Empolyee();
+        Obj.Show()
+        
+    }
     }
         }
 
