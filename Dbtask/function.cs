@@ -29,6 +29,9 @@ namespace Dbtask
         sda= new SqlDataAdapter =(Query, Constr); 
             sda.fill(dt); 
             return dt;  
-            }
+            } 
+    public int SetData(string Query)
+        int cnt = 0; 
+
         }
 }
