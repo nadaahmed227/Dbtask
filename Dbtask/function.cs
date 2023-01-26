@@ -22,8 +22,8 @@ namespace Dbtask
             Con= new SqlConnection(Constr);
             Cmd = new SqlCommand();
             Cmd.Connection = Con;
-
         }
+        public DataTable GetData(string Query); 
     } 
 
 }
