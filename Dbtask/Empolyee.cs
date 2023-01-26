@@ -35,13 +35,14 @@ namespace Dbtask
         {
             try
             {
-                if (EmpolyeeTb.Text == "" || GenCb.Select )
+                if (EmpolyeeTb.Text == "" || GenCb.SelectedIndex ==-1 || DepCb.SelectedIndex ==-1||DailySalTb.Text  =="")
+               
                 {
                     MessageBox.Show("missing data!!!");
                 }
                 else
                 {
-                    string Dep = DepNameTb.Text;
+                    string Name = EmpNameTb.Text;
                     string Query = "insert into DepartmentTb1 values('{0}')";
                     Query = string.Format(Query, DepNameTb.Text);
                     Con.SetData(Query);
