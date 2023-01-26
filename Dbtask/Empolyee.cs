@@ -1,4 +1,5 @@
-﻿using System;
+﻿using EmployeeMgmt1;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -14,7 +15,15 @@ namespace Dbtask
     {
         public Empolyee()
         {
+            function Con;
             InitializeComponent();
+            Con = new Functions();
+            ShowDepartments();
+        }
+        private void ShowDepartments()
+        {
+            string Query = "Select * from DepartmentTb1";
+            DepList.DataSource = Con.GetData(Query);
         }
 
         private void label8_Click(object sender, EventArgs e)

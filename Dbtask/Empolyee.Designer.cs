@@ -120,7 +120,7 @@
             // textBox2
             // 
             this.textBox2.Font = new System.Drawing.Font("Bell MT", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox2.Location = new System.Drawing.Point(63, 231);
+            this.textBox2.Location = new System.Drawing.Point(75, 231);
             this.textBox2.Name = "textBox2";
             this.textBox2.Size = new System.Drawing.Size(316, 30);
             this.textBox2.TabIndex = 6;
@@ -386,7 +386,7 @@
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.Name = "Empolyee";
-            this.Text = " ";
+            this.Text = "s";
             this.Load += new System.EventHandler(this.Empolyee_Load);
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
