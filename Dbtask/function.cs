@@ -32,6 +32,6 @@ namespace Dbtask
             } 
     public int SetData(string Query)
         int cnt = 0; 
-
+        if(Con.set == ConnectionSet.Closed)
         }
 }
