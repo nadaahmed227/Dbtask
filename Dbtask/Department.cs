@@ -24,7 +24,7 @@ namespace Dbtask
 
         private void ShowDepartment()
         {
-            string Query = "Select *from  DepartmentTb1";
+            string Query = "Update  *from  DepartmentTb1";
             Deplist.DataSourc = Con.GetData(Query);
         }
         private void AddBtn_Click(object sender, EventArgs e)
