@@ -55,7 +55,7 @@
             this.pictureBox4 = new System.Windows.Forms.PictureBox();
             this.pictureBox5 = new System.Windows.Forms.PictureBox();
             this.pictureBox3 = new System.Windows.Forms.PictureBox();
-            this.label11 = new System.Windows.Forms.Label();
+            this.Dep = new System.Windows.Forms.Label();
             this.Empd = new System.Windows.Forms.Label();
             this.panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
@@ -328,16 +328,16 @@
             this.pictureBox3.TabIndex = 46;
             this.pictureBox3.TabStop = false;
             // 
-            // label11
+            // Dep
             // 
-            this.label11.AutoSize = true;
-            this.label11.Font = new System.Drawing.Font("Yu Gothic UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label11.ForeColor = System.Drawing.Color.Teal;
-            this.label11.Location = new System.Drawing.Point(686, 128);
-            this.label11.Name = "label11";
-            this.label11.Size = new System.Drawing.Size(117, 28);
-            this.label11.TabIndex = 41;
-            this.label11.Text = "Department";
+            this.Dep.AutoSize = true;
+            this.Dep.Font = new System.Drawing.Font("Yu Gothic UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Dep.ForeColor = System.Drawing.Color.Teal;
+            this.Dep.Location = new System.Drawing.Point(686, 128);
+            this.Dep.Name = "Dep";
+            this.Dep.Size = new System.Drawing.Size(117, 28);
+            this.Dep.TabIndex = 41;
+            this.Dep.Text = "Department";
             // 
             // Empd
             // 
@@ -362,7 +362,7 @@
             this.Controls.Add(this.pictureBox4);
             this.Controls.Add(this.pictureBox5);
             this.Controls.Add(this.pictureBox3);
-            this.Controls.Add(this.label11);
+            this.Controls.Add(this.Dep);
             this.Controls.Add(this.Empd);
             this.Controls.Add(this.Abded);
             this.Controls.Add(this.Updated);
@@ -428,7 +428,7 @@
         private System.Windows.Forms.PictureBox pictureBox4;
         private System.Windows.Forms.PictureBox pictureBox5;
         private System.Windows.Forms.PictureBox pictureBox3;
-        private System.Windows.Forms.Label label11;
+        private System.Windows.Forms.Label Dep;
         private System.Windows.Forms.Label Empd;
     }
 }
