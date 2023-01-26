@@ -57,7 +57,11 @@ namespace Dbtask
 
         private void DepList_CellConttectClick(object sender, DataGridViewCellEventArgs e)
         {
-            DepNameTb.Text = Deplist.SelectedRows[0].cells.Value.ToString();
+            DepNameTb.Text = Deplist.SelectedRows[0].cells.Value.ToString(); 
+            if(DepNameTb.Text =="")
+            {
+                key = 0; 
+            }
 
         }
       
