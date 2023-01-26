@@ -46,7 +46,7 @@
             this.panel2 = new System.Windows.Forms.Panel();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.comboBox1 = new System.Windows.Forms.ComboBox();
-            this.comboBox2 = new System.Windows.Forms.ComboBox();
+            this.kkk = new System.Windows.Forms.ComboBox();
             this.button1 = new System.Windows.Forms.Button();
             this.button2 = new System.Windows.Forms.Button();
             this.label9 = new System.Windows.Forms.Label();
@@ -236,13 +236,13 @@
             this.comboBox1.Size = new System.Drawing.Size(316, 35);
             this.comboBox1.TabIndex = 19;
             // 
-            // comboBox2
+            // kkk
             // 
-            this.comboBox2.FormattingEnabled = true;
-            this.comboBox2.Location = new System.Drawing.Point(63, 415);
-            this.comboBox2.Name = "comboBox2";
-            this.comboBox2.Size = new System.Drawing.Size(316, 35);
-            this.comboBox2.TabIndex = 20;
+            this.kkk.FormattingEnabled = true;
+            this.kkk.Location = new System.Drawing.Point(63, 415);
+            this.kkk.Name = "kkk";
+            this.kkk.Size = new System.Drawing.Size(316, 35);
+            this.kkk.TabIndex = 20;
             // 
             // button1
             // 
@@ -366,7 +366,7 @@
             this.Controls.Add(this.label12);
             this.Controls.Add(this.button2);
             this.Controls.Add(this.button1);
-            this.Controls.Add(this.comboBox2);
+            this.Controls.Add(this.kkk);
             this.Controls.Add(this.comboBox1);
             this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.panel2);
@@ -419,7 +419,7 @@
         private System.Windows.Forms.Panel panel2;
         private System.Windows.Forms.PictureBox pictureBox1;
         private System.Windows.Forms.ComboBox comboBox1;
-        private System.Windows.Forms.ComboBox comboBox2;
+        private System.Windows.Forms.ComboBox kkk;
         private System.Windows.Forms.Button button1;
         private System.Windows.Forms.Button button2;
         private System.Windows.Forms.Label label9;
