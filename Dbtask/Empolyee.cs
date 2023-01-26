@@ -40,8 +40,13 @@ namespace Dbtask
                 {
                     MessageBox.Show("missing data!!!");
                 }
-                else
+                else 
                 {
+                    string Name = EmpolyeeNameTb.Text;
+                    string Name = EmpolyeeNameTb.Text;
+                    string Name = EmpolyeeNameTb.Text;
+
+
                     string Name = EmpNameTb.Text;
                     string Query = "insert into DepartmentTb1 values('{0}')";
                     Query = string.Format(Query, DepNameTb.Text);
