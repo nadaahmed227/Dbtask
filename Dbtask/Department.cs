@@ -24,7 +24,7 @@ namespace Dbtask
 
         private void ShowDepartment()
         {
-            string Query = "Update  *from  DepartmentTb1";
+            string Query = "Select   *from  DepartmentTb1";
             Deplist.DataSourc = Con.GetData(Query);
         }
         private void AddBtn_Click(object sender, EventArgs e)
@@ -40,8 +40,8 @@ namespace Dbtask
             else
             {
                 string Dep = DepNameTb.Text;
-                string Query = "insert into DepertmentTb1 Values('{0}')";
-                Query = string.Format(DepNameTb.Text);
+                string Query = "insert into DepertmentTb1 Set DEpName ='{0}' whare DepId ={1})";
+                Query = string.Format(DepNameTb.Text,Key);
                 Con.StateData(Query);
                 ShowDepartment();
                 MessageBox.Show("Department  Added!!!");
