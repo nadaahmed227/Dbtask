@@ -16,7 +16,7 @@ namespace Dbtask
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new Empolyee());
+            Application.Run(new Department());
         }
     }
 }
