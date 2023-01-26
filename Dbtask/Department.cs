@@ -376,8 +376,10 @@ namespace Dbtask
     }
     private void EmpLb1_Click(object sender, EventArgs e)
     {
-        EmpolyeeObi = new Empolyee();
-        Obj.Show()
+        Empolyee Obj= new Empolyee();
+        Obj.Show(); 
+        this.Hide()
+
         
     }
     }
