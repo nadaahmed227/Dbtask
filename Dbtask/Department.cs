@@ -10,30 +10,31 @@ using System.Windows.Forms;
 
 namespace Dbtask
 {
-    public partial class Department : Form 
+    public partial class Department : Form
         function Con;
-    { 
+    {
+
         public Department()
         {
             InitializeComponent();
             Con = new function();
-            ShowDepartments(); 
+            ShowDepartments();
         }
 
-       
+
         private void ShowDepartment()
         {
             string Query = "Select *from  DepartmentTb1";
             Deplist.DataSourc = Con.GetData(Query);
         }
-        private void AddBtn_Click(object sender, EventArgs e) 
+        private void AddBtn_Click(object sender, EventArgs e)
         {
             try
-            {  
-                if(DepNameTb.Text == "")
+            {
+                if (DepNameTb.Text == "")
                 {
-                    MessageBox.Show("Missing Data!!!");  
-                   
+                    MessageBox.Show("Missing Data!!!");
+
                 }
             }
             else
@@ -44,17 +45,23 @@ namespace Dbtask
                 Con.StateData(Query);
                 ShowDepartment();
                 MessageBox.Show("Department  Added!!!");
-                DepNameTb.Text = ""; 
+                DepNameTb.Text = "";
             }
             catch (Exception Ex)
             {
-                MessageBox.Show(Ex.Message); 
-
+                MessageBox.Show(Ex.Message);
             }
+        }
 
+        int key = 0;
 
+        p
 
+        }
+
+   
+        
 
         }
     }
-}
+
