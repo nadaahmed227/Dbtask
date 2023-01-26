@@ -50,7 +50,7 @@
             this.Updated = new System.Windows.Forms.Button();
             this.Abded = new System.Windows.Forms.Button();
             this.label9 = new System.Windows.Forms.Label();
-            this.label10 = new System.Windows.Forms.Label();
+            this.Sal = new System.Windows.Forms.Label();
             this.pictureBox2 = new System.Windows.Forms.PictureBox();
             this.pictureBox4 = new System.Windows.Forms.PictureBox();
             this.pictureBox5 = new System.Windows.Forms.PictureBox();
@@ -277,16 +277,16 @@
             this.label9.TabIndex = 47;
             this.label9.Text = "LOGOUT";
             // 
-            // label10
+            // Sal
             // 
-            this.label10.AutoSize = true;
-            this.label10.Font = new System.Drawing.Font("Yu Gothic UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label10.ForeColor = System.Drawing.Color.Teal;
-            this.label10.Location = new System.Drawing.Point(908, 128);
-            this.label10.Name = "label10";
-            this.label10.Size = new System.Drawing.Size(65, 28);
-            this.label10.TabIndex = 48;
-            this.label10.Text = "Salary";
+            this.Sal.AutoSize = true;
+            this.Sal.Font = new System.Drawing.Font("Yu Gothic UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Sal.ForeColor = System.Drawing.Color.Teal;
+            this.Sal.Location = new System.Drawing.Point(908, 128);
+            this.Sal.Name = "Sal";
+            this.Sal.Size = new System.Drawing.Size(65, 28);
+            this.Sal.TabIndex = 48;
+            this.Sal.Text = "Salary";
             // 
             // pictureBox2
             // 
@@ -357,7 +357,7 @@
             this.BackColor = System.Drawing.Color.White;
             this.ClientSize = new System.Drawing.Size(1489, 839);
             this.Controls.Add(this.label9);
-            this.Controls.Add(this.label10);
+            this.Controls.Add(this.Sal);
             this.Controls.Add(this.pictureBox2);
             this.Controls.Add(this.pictureBox4);
             this.Controls.Add(this.pictureBox5);
@@ -423,7 +423,7 @@
         private System.Windows.Forms.Button Updated;
         private System.Windows.Forms.Button Abded;
         private System.Windows.Forms.Label label9;
-        private System.Windows.Forms.Label label10;
+        private System.Windows.Forms.Label Sal;
         private System.Windows.Forms.PictureBox pictureBox2;
         private System.Windows.Forms.PictureBox pictureBox4;
         private System.Windows.Forms.PictureBox pictureBox5;
