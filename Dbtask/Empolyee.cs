@@ -46,6 +46,8 @@ namespace Dbtask
                     string Gender = Gencb.SelectedItem.ToString();
                     string  = Gencb.SelectedValue.ToString();
                     string  = DDB.DDBTb.Value.ToString();
+                    string  = JDate.JDate.Value.ToString();
+
 
 
                     string Name = EmpNameTb.Text;
