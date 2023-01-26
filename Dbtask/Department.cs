@@ -10,11 +10,13 @@ using System.Windows.Forms;
 
 namespace Dbtask
 {
-    public partial class Department : Form
-    {
+    public partial class Department : Form 
+        function Con;
+    { 
         public Department()
         {
-            InitializeComponent();
+            InitializeComponent(); 
+           Con= new function()
         }
 
         private void Department_Load(object sender, EventArgs e)
@@ -94,7 +96,8 @@ namespace Dbtask
 
         private void ListrDepartments()
         {
-
+            string Query = "Select *from  DepartmentTb1";
+            Deplist.DataSourc = 
         }
         private void AddBtn_Click(object sender, EventArgs e) 
         {
