@@ -366,7 +366,7 @@ namespace Dbtask
             Query = string.Format(,Query Key);
             Con.StateData(Query);
             ShowDepartment();
-            MessageBox.Show("Department  Update!!!");
+            MessageBox.Show("Department  Delet !!!");
             DepNameTb.Text = ""
             }
             catch (Exception Ex)
