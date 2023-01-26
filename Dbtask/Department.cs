@@ -55,7 +55,10 @@ namespace Dbtask
 
         int key = 0;
 
-        private void DepList_CellCont
+        private void DepList_CellConttectClick(object sender,DataGridViewCellEventArgs e)
+        {
+
+        }
 
         }
 
