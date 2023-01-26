@@ -362,8 +362,8 @@ namespace Dbtask
             else
         {
             string Dep = DepNameTb.Text;
-            string Query = "Delet  into DepertmentTb1 Set DEpName ='{0}' whare DepId ={1})";
-            Query = string.Format(DepNameTb.Text, Key);
+            string Query = "Delet  from whare DepId ={0})";
+            Query = string.Format(,Query Key);
             Con.StateData(Query);
             ShowDepartment();
             MessageBox.Show("Department  Update!!!");
