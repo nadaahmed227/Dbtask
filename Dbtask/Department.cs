@@ -44,7 +44,7 @@ namespace Dbtask
                 Query = string.Format(DepNameTb.Text,Key);
                 Con.StateData(Query);
                 ShowDepartment();
-                MessageBox.Show("Department  Added!!!");
+                MessageBox.Show("Department  Update!!!");
                 DepNameTb.Text = "";
             }
             catch (Exception Ex)
