@@ -19,8 +19,8 @@ namespace Dbtask
             InitializeComponent();
             Con = new Functions();
             ShowEmpolyee();
-            GetDepartment 
-        }
+            GetDepartment();
+;        }
         private void ShowEmpolyee()
         {
             string Query = "Select * from EmpolyeeTb1";
