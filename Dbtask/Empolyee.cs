@@ -31,10 +31,31 @@ namespace Dbtask
         Depcb.DisplayMember =Con.GetData(Query).Colums["DepName"].Tostring();
         Depcb.ValueMember =Con.GetData(Query).Colums["DepId"].Tostring(); 
         Depc..DataSource = Con.GetData(Query);
-        private void Added_Click(object sender, EventArgs e)
+        private void AddBtn_Click(object sender, EventArgs e)
         {
-
+            try
+            {
+                if (EmpolyeeTb.Text == "" || GenCb.Select )
+                {
+                    MessageBox.Show("missing data!!!");
+                }
+                else
+                {
+                    string Dep = DepNameTb.Text;
+                    string Query = "insert into DepartmentTb1 values('{0}')";
+                    Query = string.Format(Query, DepNameTb.Text);
+                    Con.SetData(Query);
+                    ShowDepartments();
+                    MessageBox.Show("Department Added!!!");
+                    DepNameTb.Text = "";
+                }
+            }
+            catch (Exception Ex)
+            {
+                MessageBox.Show(Ex.Message);
+            }
         }
+    }
 
         private void Empolyee_Load(object sender, EventArgs e)
         {
