@@ -25,7 +25,8 @@ namespace Dbtask
             string Query = "Select * from EmpolyeeTb1";
             EmpolyeeList.DataSource = Con.GetData(Query);
         }
-        private void GetDepartment = Con.GetData(Query); 
+        private void GetDepartment = Con.GetData(Query); {
+        string Query ="Select *from Department"
         private void Added_Click(object sender, EventArgs e)
         {
 
