@@ -46,7 +46,9 @@ namespace Dbtask
                     string Gender = Gencb.SelectedItem.ToString();
                     string  = Gencb.SelectedValue.ToString();
                     string  = DDB.DDBTb.Value.ToString();
-                    string  = JDate.JDate.Value.ToString();
+                    string  = JDate.JDateTb.Value.ToString();
+                    int Salary  = DailySalary .Value.ToString();
+
 
 
 
