@@ -33,7 +33,7 @@
             this.label1 = new System.Windows.Forms.Label();
             this.flowLayoutPanel1 = new System.Windows.Forms.FlowLayoutPanel();
             this.label3 = new System.Windows.Forms.Label();
-            this.label2 = new System.Windows.Forms.Label();
+            this.EmpolyeeNameTb = new System.Windows.Forms.Label();
             this.textBox2 = new System.Windows.Forms.TextBox();
             this.label4 = new System.Windows.Forms.Label();
             this.label5 = new System.Windows.Forms.Label();
@@ -106,16 +106,16 @@
             this.label3.TabIndex = 1;
             this.label3.Text = "Manage Empolyee";
             // 
-            // label2
+            // EmpolyeeNameTb
             // 
-            this.label2.AutoSize = true;
-            this.label2.Font = new System.Drawing.Font("Yu Gothic UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.ForeColor = System.Drawing.Color.Teal;
-            this.label2.Location = new System.Drawing.Point(58, 200);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(155, 28);
-            this.label2.TabIndex = 5;
-            this.label2.Text = "Empolyee Name";
+            this.EmpolyeeNameTb.AutoSize = true;
+            this.EmpolyeeNameTb.Font = new System.Drawing.Font("Yu Gothic UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.EmpolyeeNameTb.ForeColor = System.Drawing.Color.Teal;
+            this.EmpolyeeNameTb.Location = new System.Drawing.Point(58, 200);
+            this.EmpolyeeNameTb.Name = "EmpolyeeNameTb";
+            this.EmpolyeeNameTb.Size = new System.Drawing.Size(155, 28);
+            this.EmpolyeeNameTb.TabIndex = 5;
+            this.EmpolyeeNameTb.Text = "Empolyee Name";
             // 
             // textBox2
             // 
@@ -379,7 +379,7 @@
             this.Controls.Add(this.label5);
             this.Controls.Add(this.label4);
             this.Controls.Add(this.textBox2);
-            this.Controls.Add(this.label2);
+            this.Controls.Add(this.EmpolyeeNameTb);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.panel1);
             this.Font = new System.Drawing.Font("Microsoft YaHei UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -406,7 +406,7 @@
         private System.Windows.Forms.FlowLayoutPanel flowLayoutPanel1;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Label label3;
-        private System.Windows.Forms.Label label2;
+        private System.Windows.Forms.Label EmpolyeeNameTb;
         private System.Windows.Forms.TextBox textBox2;
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.Label label5;
