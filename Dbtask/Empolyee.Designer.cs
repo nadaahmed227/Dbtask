@@ -53,6 +53,8 @@
             this.comboBox3 = new System.Windows.Forms.ComboBox();
             this.comboBox4 = new System.Windows.Forms.ComboBox();
             this.comboBox6 = new System.Windows.Forms.ComboBox();
+            this.button1 = new System.Windows.Forms.Button();
+            this.button2 = new System.Windows.Forms.Button();
             this.panel3.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox6)).BeginInit();
@@ -153,7 +155,7 @@
             // 
             this.panel8.Location = new System.Drawing.Point(58, 741);
             this.panel8.Name = "panel8";
-            this.panel8.Size = new System.Drawing.Size(268, 31);
+            this.panel8.Size = new System.Drawing.Size(267, 31);
             this.panel8.TabIndex = 13;
             this.panel8.Paint += new System.Windows.Forms.PaintEventHandler(this.panel8_Paint);
             // 
@@ -306,9 +308,31 @@
             this.comboBox6.Size = new System.Drawing.Size(267, 35);
             this.comboBox6.TabIndex = 18;
             // 
+            // button1
+            // 
+            this.button1.BackColor = System.Drawing.Color.Teal;
+            this.button1.Location = new System.Drawing.Point(49, 799);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(157, 34);
+            this.button1.TabIndex = 19;
+            this.button1.Text = "Add";
+            this.button1.UseVisualStyleBackColor = false;
+            // 
+            // button2
+            // 
+            this.button2.BackColor = System.Drawing.Color.Teal;
+            this.button2.Location = new System.Drawing.Point(241, 799);
+            this.button2.Name = "button2";
+            this.button2.Size = new System.Drawing.Size(157, 34);
+            this.button2.TabIndex = 19;
+            this.button2.Text = "Update";
+            this.button2.UseVisualStyleBackColor = false;
+            // 
             // Employees
             // 
             this.ClientSize = new System.Drawing.Size(1562, 896);
+            this.Controls.Add(this.button2);
+            this.Controls.Add(this.button1);
             this.Controls.Add(this.comboBox6);
             this.Controls.Add(this.comboBox3);
             this.Controls.Add(this.comboBox4);
@@ -402,5 +426,7 @@
         private System.Windows.Forms.ComboBox comboBox3;
         private System.Windows.Forms.ComboBox comboBox4;
         private System.Windows.Forms.ComboBox comboBox6;
+        private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.Button button2;
     }
 }
