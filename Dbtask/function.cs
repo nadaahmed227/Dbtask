@@ -15,7 +15,7 @@ namespace Dbtask
         private DataTable dt;
         private SqlDataAdapter sda;
         private string Constr;
-        public functions()
+        public function()
         {
 
             Constr = @"Data Source=(LocalDB)\\MSSQLLocalDB;AttachDbFilename=C:\\Users\\bahgat\\source\\repos\\Dbtask\\Dbtask\\EmpDb.mdf;Integrated Security=True;Connect Timeout=30"

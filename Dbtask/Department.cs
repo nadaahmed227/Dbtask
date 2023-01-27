@@ -120,5 +120,19 @@ namespace EmployeeMgmt1
             obj.Show();
             this.Hide();
         }
+
+        private void InitializeComponent()
+        {
+            this.SuspendLayout();
+            // 
+            // Departments
+            // 
+            this.ClientSize = new System.Drawing.Size(1391, 821);
+            this.Font = new System.Drawing.Font("Microsoft YaHei", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
+            this.Name = "Departments";
+            this.ResumeLayout(false);
+
+        }
     }
 }
