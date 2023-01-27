@@ -262,9 +262,9 @@ namespace EmployeeMgmt1
             this.label4.ForeColor = System.Drawing.Color.Teal;
             this.label4.Location = new System.Drawing.Point(760, 208);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(239, 27);
+            this.label4.Size = new System.Drawing.Size(149, 27);
             this.label4.TabIndex = 20;
-            this.label4.Text = "Employee Managament";
+            this.label4.Text = "Manag Salary ";
             // 
             // panel3
             // 
